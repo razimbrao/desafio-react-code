@@ -13,15 +13,16 @@ footer{
 }
 
 .logo img{
-    width: 8rem;
+    width: 12rem;
 }
 
 .contact p{
     color: #fff;
     text-align: center;
+    font-size: 18px;
 }
 
 .social img{
-    width: 3rem;
+    width: 2rem;
     margin: 0 1rem;
 }
