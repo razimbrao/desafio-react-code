@@ -7,18 +7,27 @@ const Navbar = () => {
         <header className="navbar">
             <nav>
                 <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/about">Sobre</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contato</Link>
-                    </li>
-                    <li>
-                        <Link to="/login">Login</Link>
-                    </li>
+                    <div className='logo'>
+                        <Link to='/'>
+                            <img src='/img/logo.png' alt='logo da empresa'/>
+                        </Link>
+                    </div>
+                    <div className='links'>
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/about">Sobre</Link>
+                        </li>
+                        <li>
+                            <Link to="/contact">Contato</Link>
+                        </li>
+                    </div>
+                    <div className='login'>
+                        <li>
+                            <Link to="/login">Login</Link>
+                        </li>
+                    </div>
                 </ul>
             </nav>
         </header>

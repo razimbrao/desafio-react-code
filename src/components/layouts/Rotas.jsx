@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../css/Rotas.css";
 import { Routes, Route } from 'react-router-dom'
 
 import Home from "../../views/pages/Home";
