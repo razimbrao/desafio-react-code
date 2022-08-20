@@ -1,0 +1,27 @@
+footer{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    background-color: #592e83;
+}
+
+.footer-content{
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo img{
+    width: 8rem;
+}
+
+.contact p{
+    color: #fff;
+    text-align: center;
+}
+
+.social img{
+    width: 3rem;
+    margin: 0 1rem;
+}
