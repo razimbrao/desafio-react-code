@@ -1,10 +1,10 @@
-footer{
+footer {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
     background-color: #592e83;
 }
 
-.footer-content{
+.footer-content {
     font-size: 24px;
     display: flex;
     flex-direction: row;
@@ -12,17 +12,29 @@ footer{
     justify-content: space-evenly;
 }
 
-.logo img{
-    width: 12rem;
+
+.logo img {
+    width: 22rem;
 }
 
-.contact p{
+.contact p,a {
     color: #fff;
     text-align: center;
     font-size: 18px;
+    text-decoration: none;
 }
 
-.social img{
+.contact a{
+color: #9984d4;
+}
+
+#footer-title{
+    color: #230c33;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.social img {
     width: 2rem;
     margin: 0 1rem;
 }

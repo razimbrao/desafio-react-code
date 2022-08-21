@@ -1,40 +1,48 @@
-.navbar{
-    background-color: #592e83;
-    font-size: 24px;
-    text-transform: uppercase;
-    padding: 0.5rem 0;
+.navbar {
+  background-color: #592e83;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-top: 0.5rem;
+  row-gap: 2rem;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030; /* to prevent the navbar getting covered up by other content */
 }
 
-.navbar ul{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    align-items: center;
-    justify-content: space-between;
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.navbar a{
-    text-decoration: none;
-    color:  #fff;
-    margin: 0 2rem;
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 2rem;
 }
 
-.links{
-    display: flex;
-    flex-direction: row;
+.links {
+  display: flex;
+  flex-direction: row;
 }
 
-.logo{
-    margin-left: 2rem;
+.logo {
+  margin-left: 2rem;
 }
 
-.logo img{
-    width: 6rem;
+.banner-nav {
+  max-width: 12rem;
 }
 
-.login{
-    margin-right: 2rem;
+.login {
+  margin-right: 2rem;
 }
+
 
 /*
 -----------------------------------
@@ -47,14 +55,16 @@ nav ul li a:after,
 nav ul li a:before {
   transition: all .5s;
 }
+
 nav ul li a:hover {
-  color: #caa8f5;
+  color: black;
 }
 
 nav ul li a {
   position: relative;
 }
-nav ul li a:after{
+
+nav ul li a:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -63,9 +73,10 @@ nav ul li a:after{
   width: 0%;
   content: '.';
   color: transparent;
-  background: #caa8f5;
+  background: #230c33;
   height: 1px;
 }
+
 nav ul li a:hover:after {
   width: 100%;
 }

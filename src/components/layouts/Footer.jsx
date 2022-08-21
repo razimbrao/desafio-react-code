@@ -6,15 +6,19 @@ const Footer = () => {
         <footer>
             <div className="footer-content">
                 <div className="logo">
-                    <img src="/img/astra/logo.png"/>
+                    <img src="/img/asta/asta-banner-main.png"/>
                 </div>
                 <div className="contact">
+                    <p id="footer-title">
+                        Asta Junior - Consultoria em Astronomia
+                    </p>
                     <p>
                         rafael.zimbrao@codejr.com.br
                     </p>
                     <p>
                         Rua José Lourenço Kelmer, UFJF, <br/>
-                        Instituto de Ciências Exatas
+                        Instituto de Ciências Exatas <br/>
+                        <a href="https://storyset.com/space">Space illustrations by Storyset</a>
                     </p>
                 </div>
                 <div className="social">

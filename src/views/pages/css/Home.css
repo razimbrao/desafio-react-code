@@ -1,4 +1,39 @@
 main{
-    background-color: #230c33;
-    color: #fff;
+    background-color: #EAEEF1;
+    color: #230c33;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #592e83;
+    padding-top: 4rem;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    gap: 10%;
+}
+
+.home-content-left{
+    flex: 1;
+    margin-left: 20%;
+}
+
+.home-content-left img{
+    width: 26rem;
+}
+
+.home-content-rigth{
+    flex: 1;
+    background-color: lime;
+    max-width: 20vw;
+    margin-right: -500px;
+}
+.home-content-rigth p{
+    text-align: center;
+    word-break: break-all;
 }
