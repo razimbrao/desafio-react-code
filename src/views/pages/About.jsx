@@ -13,8 +13,8 @@ const About = () => {
                     <h2>Principal Empresa Junior de Astronomia do Brasil</h2>
                     <p>Fundada em 2014, a Astra é uma empresa júnior que trabalha com soluções nas áreas de Astronomia, Geofísica e Meteorologia.
                         Como filosofia interna, buscamos sempre melhorar tudo o que estiver a nosso alcance,
-                        visando sempre oferecer serviços de melhor qualidade a quem merece o melhor.</p>
-                    <p>A empresa é constituída e gerida por alunos do Instituto de Ciências Exatas da Universidade Federal de Juiz de Fora
+                        visando sempre oferecer serviços de melhor qualidade a quem merece o melhor.<br/>
+                    A empresa é constituída e gerida por alunos do Instituto de Ciências Exatas da Universidade Federal de Juiz de Fora
                         (ICE-UFJF), sendo especialista na área.</p>
                 </div>
                 <div className="about-cards">
@@ -40,8 +40,7 @@ const About = () => {
                         crescimento na economia do país, buscando gerar valor em nossos
                         serviços e projetos, sempre cientes de nossa responsabilidade e
                         comprometimento, tendo nossas ações baseadas em princípios éticos e
-                        morais. </p>
-                    <p>
+                        morais. <br/>
                         Somos uma rede de empresas conectadas, que juntas,
                         compartilhamos propósitos e causas comuns, na esperança de que toda
                         essa sinergia, proporcione um futuro melhor a todos.

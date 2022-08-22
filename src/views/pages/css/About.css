@@ -8,18 +8,39 @@
 }
 
 .about-title{
-
+    margin: 2rem 0 2rem 0; 
+    text-align: center;
 }
 
-.about-content-text{
+.about-title h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
 
+.about-content-text, .about-mej{
+    margin: 0 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+}
+
+.about-content-text h2, .about-mej h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.about-content-text p, .about-mej p{
+    font-size: 1.2rem;
+    text-align: justify;
+    text-indent: 2rem;
+    font-weight: 100;
 }
 
 .about-cards{
     display: flex;
     flex-direction: row;
-}
-
-.about-mej{
-
+    margin-bottom: 2rem;
 }

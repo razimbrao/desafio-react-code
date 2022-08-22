@@ -1,6 +1,31 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     text-decoration: none;
     font-family: 'Rajdhani', sans-serif;
+}
+
+::-moz-selection {
+    color: white;
+    background: #592e83;
+}
+
+::selection {
+    color: white;
+    background: #592e83;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #EAEEF1;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #230c33;
+    border-radius: 0px;
 }
