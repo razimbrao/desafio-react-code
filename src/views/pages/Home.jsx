@@ -3,26 +3,27 @@ import "./css/Home.css";
 
 const Home = () => {
     return (
-        <main className="home">
-            <section className="home-content">
-                <div className="home-content-left">
-                    <img src="/img/cat/asta-cat-home.svg" alt="ilustração"/>
-                </div>
-                <div className="home-content-right">
-                    <h2>Bem vindo à Asta Jr.</h2>
-                    <p>
-                        Seja na forma de site, sistema ou aplicativo,
-                         a tecnologia encurta caminhos e potencializa os resultados do seu negócio.
-                    </p>
-                    <p>
-                        Por isso, criamos soluções personalizadas para ajudar a sua empresa.
-                    </p>
-                    <p>
-                        Agende agora uma reunião de diagnóstico gratuita!
-                    </p>
-                </div>
+        <section className="home">
+            <section className="banner">
+                <img src="/img/asta/asta-banner-main.png" alt="banner da empresa"/>
             </section>
-        </main>
+            <section className="home-content">
+                <section className="home-left">
+                    <img src="/img/cat/asta-cat-home.svg" alt="ilustração"/>
+                    <img src="/img/cat/asta-cat-home.svg" alt="ilustração"/>
+                    <img src="/img/cat/asta-cat-home.svg" alt="ilustração"/>
+                    <img src="/img/cat/asta-cat-home.svg" alt="ilustração"/>
+                    <img src="/img/cat/asta-cat-home.svg" alt="ilustração"/>
+                    <img src="/img/cat/asta-cat-home.svg" alt="ilustração"/>
+                    <img src="/img/cat/asta-cat-home.svg" alt="ilustração"/>
+                    <img src="/img/cat/asta-cat-home.svg" alt="ilustração"/>
+                    <img src="/img/cat/asta-cat-home.svg" alt="ilustração"/>
+                </section>
+                <section className="home-right">
+                    <h2>Bem vindo à Asta Jr.</h2>
+                </section>
+            </section>
+        </section>
     )
 }
 

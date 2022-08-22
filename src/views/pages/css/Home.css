@@ -2,33 +2,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#EAEEF1;
+    background-color:#592e83;
 }
 
 .home-content{
     background-color: #EAEEF1;
     color: #230c33;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.home-left{
     display: flex;
-    flex-direction: row;
-    padding-top: 4rem;
-    gap: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.home-content-left{
-    flex: 1;
-    margin-left: 20%;
-}
-
-.home-content-left img{
+.home-left img{
     width: 26rem;
 }
 
-.home-content-rigth{
-    flex: 1;
-    max-width: 20vw;
-    margin-right: -500px;
+.home-rigth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.home-content-rigth p{
-    text-align: center;
-    word-break: break-all;
+.home-rigth p{
 }

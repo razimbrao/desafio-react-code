@@ -4,6 +4,7 @@ import React from "react";
 const Footer = () => {
     return(
         <footer>
+            <hr className="footer-line"/>
             <div className="footer-content">
                 <div className="footer-logo">
                     <img src="/img/asta/asta-banner-main.png" alt="logo da empresa"/>

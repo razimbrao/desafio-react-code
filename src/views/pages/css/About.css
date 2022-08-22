@@ -1,0 +1,25 @@
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAEEF1;
+    color: #230c33;
+}
+
+.about-title{
+
+}
+
+.about-content-text{
+
+}
+
+.about-cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-mej{
+
+}
