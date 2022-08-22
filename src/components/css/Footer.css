@@ -1,7 +1,8 @@
 footer {
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     background-color: #592e83;
+    min-width: 100vw;
 }
 
 .footer-content {
@@ -13,28 +14,32 @@ footer {
 }
 
 
-.logo img {
+.footer-logo img {
     width: 22rem;
 }
 
-.contact p,a {
+.footer-contact p,a {
     color: #fff;
     text-align: center;
     font-size: 18px;
     text-decoration: none;
 }
 
-.contact a{
-color: #9984d4;
+.footer-contact a{
+    color: #6666CC;
 }
 
 #footer-title{
-    color: #230c33;
+    color: #fff;
     font-size: 26px;
     font-weight: bold;
 }
 
-.social img {
+.footer-social img {
     width: 2rem;
     margin: 0 1rem;
+}
+
+.footer-contact a:hover{
+    color: #9984d4;
 }

@@ -4,16 +4,9 @@ import "./css/Home.css";
 const Home = () => {
     return (
         <main className="home">
-            <section className="banner">
-                <img src="/img/asta/asta-banner-main.png" />
-            </section>
             <section className="home-content">
                 <div className="home-content-left">
-                    <img src="/img/home/asta-cat.svg" />
-                    <img src="/img/home/asta-cat.svg" />
-                    <img src="/img/home/asta-cat.svg" />
-                    <img src="/img/home/asta-cat.svg" />
-                    <img src="/img/home/asta-cat.svg" />
+                    <img src="/img/home/asta-cat.svg" alt="ilustração"/>
                 </div>
                 <div className="home-content-right">
                     <h2>Bem vindo à Asta Jr.</h2>

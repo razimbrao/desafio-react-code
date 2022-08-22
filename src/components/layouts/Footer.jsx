@@ -5,10 +5,10 @@ const Footer = () => {
     return(
         <footer>
             <div className="footer-content">
-                <div className="logo">
-                    <img src="/img/asta/asta-banner-main.png"/>
+                <div className="footer-logo">
+                    <img src="/img/asta/asta-banner-main.png" alt="logo da empresa"/>
                 </div>
-                <div className="contact">
+                <div className="footer-contact">
                     <p id="footer-title">
                         Asta Junior - Consultoria em Astronomia
                     </p>
@@ -21,15 +21,15 @@ const Footer = () => {
                         <a href="https://storyset.com/space">Space illustrations by Storyset</a>
                     </p>
                 </div>
-                <div className="social">
+                <div className="footer-social">
                     <a target="__blank" href="https://www.facebook.com">
-                        <img src="/img/social/facebook.svg"/>
+                        <img src="/img/social/facebook.svg" alt="facebook"/>
                     </a>
                     <a  target="__blank" href="https://www.instagram.com">
-                        <img src="/img/social/instagram.svg"/>
+                        <img src="/img/social/instagram.svg" alt="instagram"/>
                     </a>
                     <a  target="__blank" href="https://www.linkedin.com">
-                        <img src="/img/social/linkedin.svg"/>
+                        <img src="/img/social/linkedin.svg" alt="linkedin"/>
                     </a>
                 </div> 
             </div>

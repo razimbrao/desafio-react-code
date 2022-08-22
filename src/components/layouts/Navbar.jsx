@@ -7,12 +7,12 @@ const Navbar = () => {
         <header className="navbar">
             <nav>
                 <ul>
-                    <div className='logo'>
+                    <div className='logo-nav'>
                         <Link to='/'>
-                            <img className='banner-nav' src='/img/asta/asta-banner-nav.png' alt='logo da empresa'/>
+                            <img src='/img/asta/asta-banner-main.png' alt='logo da empresa'/>
                         </Link>
                     </div>
-                    <div className='links'>
+                    <div className='links-nav'>
                         <li>
                             <Link to="/">Home</Link>
                         </li>
@@ -23,7 +23,7 @@ const Navbar = () => {
                             <Link to="/contact">Contato</Link>
                         </li>
                     </div>
-                    <div className='login'>
+                    <div className='login-nav'>
                         <li>
                             <Link to="/login">Login</Link>
                         </li>
