@@ -1,7 +1,7 @@
 footer {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    background-color: #592e83;
+    background-color: #EAEEF1;
     width: 100%;
 }
 
@@ -13,13 +13,12 @@ footer {
     justify-content: space-evenly;
 }
 
-
 .footer-logo img {
     width: 22rem;
 }
 
 .footer-contact p,a {
-    color: #fff;
+    color: #592e83;
     text-align: center;
     font-size: 18px;
     text-decoration: none;
@@ -31,7 +30,7 @@ footer {
 }
 
 #footer-title{
-    color: #fff;
+    color: #592e83;
     font-size: 26px;
     font-weight: bold;
 }

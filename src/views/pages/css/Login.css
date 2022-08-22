@@ -3,7 +3,7 @@
     color: #230c33;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 3.5rem;
+    padding-bottom: 5rem;
 }
 
 /*-----------------------------------
@@ -30,6 +30,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
     width: 45vw;
     margin: 3rem 0;
 }
