@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/Contact.css";
+import Input from "../../components/layouts/Input";
 
 const Contact = () => {
     return (
@@ -10,23 +11,11 @@ const Contact = () => {
             </section>
             <section className="contact-form">
                 <form>
-                    <div className="text-section">
-                        <label>Nome</label>
-                        <input placeholder="Digite seu nome" type="text"/>
-                    </div>
-                    <div className="text-section">
-                        <label>E-mail</label>
-                        <input placeholder="Digite seu endereço de e-mail" type="email"/>
-                    </div>
-                    <div className="text-section">
-                        <label>Assunto</label>
-                        <input placeholder="Digite o assunto da mensagem" type="text"/>
-                    </div>
-                    <div className="text-section">
-                        <label>Mensagem</label>
-                        <textarea rows="3" placeholder="Escreva sua mensagem"></textarea>
-                    </div>
-                    <div >
+                    <Input isInput={true} label="Nome *" placeholder="Digite seu nome" type="text" obrigatorio={true}/>
+                    <Input isInput={true} label="E-mail *" placeholder="Digite seu endereço de E-mail" type="email" obrigatorio={true}/>
+                    <Input isInput={true} label="Assunto *" placeholder="Digite o assunto da mensagem" type="text" obrigatorio={true}/>
+                    <Input isInput={false} label="Mensagem *" placeholder="Digite o assunto da mensagem" type="text" obrigatorio={true}/>
+                    <div>
                         <button className="button-form">Enviar</button>
                     </div>
                 </form>

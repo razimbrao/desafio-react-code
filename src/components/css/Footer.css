@@ -2,7 +2,7 @@ footer {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     background-color: #592e83;
-    min-width: 100vw;
+    width: 100%;
 }
 
 .footer-content {
@@ -27,6 +27,7 @@ footer {
 
 .footer-contact a{
     color: #6666CC;
+    transition: all .25s;
 }
 
 #footer-title{
@@ -41,5 +42,5 @@ footer {
 }
 
 .footer-contact a:hover{
-    color: #9984d4;
+    color: #CE0000;
 }

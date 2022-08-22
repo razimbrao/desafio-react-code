@@ -58,7 +58,7 @@ nav ul li a:before {
 }
 
 nav ul li a:hover {
-  color: black;
+  color: #CE0000;
 }
 
 nav ul li a {
@@ -74,7 +74,7 @@ nav ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #230c33;
+  background: #CE0000;
   height: 1px;
 }
 
@@ -82,6 +82,6 @@ nav ul li a:hover:after {
   width: 100%;
 }
 
-.logo img:hover{
+.logo-nav img:hover{
   opacity: 0.5;
 }

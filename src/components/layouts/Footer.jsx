@@ -16,9 +16,9 @@ const Footer = () => {
                         rafael.zimbrao@codejr.com.br
                     </p>
                     <p>
-                        Rua José Lourenço Kelmer, UFJF, <br/>
+                        Rua José Lourenço Kelmer, UFJF<br/>
                         Instituto de Ciências Exatas <br/>
-                        <a href="https://storyset.com/space">Space illustrations by Storyset</a>
+                        <a target="__blank"  href="https://storyset.com/space">Space illustrations by Storyset</a>
                     </p>
                 </div>
                 <div className="footer-social">

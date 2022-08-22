@@ -28,43 +28,20 @@
     justify-content: center;
 }
 
-.text-section {
-    margin: 1.5rem 0 0.25rem 0;
-    width: 40vw;
-}
-
-.text-section label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-size: 1.25rem;
-}
-
-.text-section input, textarea {
-    background-color: #FFF;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
-    width: 100%;
-    border: none;
-    font-size: 1.25rem;
-    padding: 1.5rem;
-    box-sizing: border-box;
-}
-textarea{
-    resize: none;
-}
-
 .button-form{
     background-color: #592e83;
     color: #fff;
     font-size: 1.5rem;
-    border-radius: 0.5rem;
-    width: 6rem;
+    border-radius: 8px;
+    width: 40vw;
     padding: 0.5rem;
     margin: 1.5rem 0;
     border: none;
     cursor: pointer;
     text-align: center;
+    transition: all .25s;
 }
 
 .button-form:hover{
-    background-color: #6666CC;
+    background-color: #CE0000;
 }

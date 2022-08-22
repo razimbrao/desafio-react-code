@@ -1,0 +1,30 @@
+.input-text-section {
+    margin: 1.5rem 0 0.25rem 0;
+    width: 40vw;
+}
+
+.input-text-section label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.input-text-section input, textarea {
+    background-color: #FFF;
+    border-radius: 4px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: none;
+    font-size: 1.25rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    transition: all 0.25s;
+    outline: 2px solid #FFF;
+}
+.input-text-section textarea{
+    resize: none;
+}
+
+.input-text-section input:focus, textarea:focus {
+    outline: 2px solid #CE0000;
+}

@@ -1,0 +1,80 @@
+.login-page{
+    background-color: #EAEEF1;
+    color: #230c33;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 3.5rem;
+}
+
+/*-----------------------------------
+                ESQUERDA
+-----------------------------------*/
+
+.login-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-left img{
+    width: 36rem;
+}
+
+/*-----------------------------------
+                DIREITA
+-----------------------------------*/
+
+.login-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+    width: 45vw;
+    margin: 3rem 0;
+}
+
+.login-title{
+    padding: 4rem 0 0 0; 
+    text-align: center;
+}
+
+#lg-title{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+}	
+
+#lg-subtitle{
+    font-size: 1.5rem;
+    color: #ce0000;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button-div {
+    padding: 0 0 1rem 0;
+}
+
+.login-button{
+    background-color: #592e83;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    width: 40vw;
+    padding: 0.5rem;
+    margin: 1.5rem 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all .25s;
+}
+
+.login-button:hover{
+    background-color: #CE0000;
+}
