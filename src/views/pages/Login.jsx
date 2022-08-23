@@ -7,7 +7,7 @@ const Login = () => {
     return (
         <section className="login-page">
             <section className="login-left">
-                <img src="/img/cat/asta-cat-login.svg" alt="ilustração de um gato" />
+                <img src="/img/ilustrations/asta-cat-login.svg" alt="ilustração de um gato" />
             </section>
 
             <section className="login-right">
@@ -17,7 +17,7 @@ const Login = () => {
                 </div>
                 <form className="login-form">
                     <div className="input-group">
-                        <Input isInput={true} label="E-mail" placeholder="exemplo@gmail.com" type="email" obrigatorio={true} />
+                        <Input isInput={true} label="E-mail" placeholder="exemplo@email.com" type="email" obrigatorio={true} />
                         <Input isInput={true} label="Senha" placeholder="Senha" type="password" obrigatorio={true} />
                     </div>
                     <div className="login-button-div">

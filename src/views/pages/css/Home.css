@@ -1,37 +1,101 @@
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #EAEEF1;
+    padding-bottom: 4rem;
 }
 
-.home-content{
+.home-content {
     background-color: #EAEEF1;
     color: #230c33;
-/*     display: grid;
-    grid-template-columns: 2fr 3fr; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home-left {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.home-left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.home-left img {
+    padding-left: 8rem;
+    width: 30vw;
 }
 
-.home-left img{
-    width: 26rem;
-}
-
-.home-rigth{
+.home-rigth {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
 }
-.home-rigth p{
+
+.home-title {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #592e83;
+    margin-bottom: 1rem;
+}
+
+.home-text {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #230c33;
+    text-align: justify;
+    max-width: 30vw;
+    padding-left: 1rem;
+}
+
+.home-maintxt {
+    margin-bottom: 2rem;
+}
+
+.home-sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.home-sub-item{
+    padding-top: 3rem;
+}
+
+.home-subtitle {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    color: #592e83;
+    margin-bottom: 1.5rem;
+}
+
+
+.home-button {
+    background-color: #592e83;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    width: 20vw;
+    padding: 0.75rem 0.5rem;
+    margin: 1rem 0;
+    margin-left: 1rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all .25s;
+    align-self: flex-start;
+}
+
+.home-button:hover {
+    background-color: #CE0000;
+}
+
+.home-rocket {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    width: 20vw;
+
 }
