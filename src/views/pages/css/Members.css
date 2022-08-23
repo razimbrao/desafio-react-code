@@ -1,0 +1,8 @@
+.members-page{
+    background-color: #EAEEF1;
+    color: #230c33;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 5rem;
+}
+

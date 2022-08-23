@@ -6,6 +6,7 @@ import Home from "../../views/pages/Home";
 import About from "../../views/pages/About";
 import Contact from "../../views/pages/Contact";
 import Login from "../../views/pages/Login";
+import Members from "../../views/pages/Members";
 
 
 const Rotas = () => {
@@ -16,6 +17,7 @@ const Rotas = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/members" element={<Members />} />
             </Routes>
         </div>
     )

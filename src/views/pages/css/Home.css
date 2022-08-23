@@ -2,14 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#592e83;
+    background-color: #EAEEF1;
 }
 
 .home-content{
     background-color: #EAEEF1;
     color: #230c33;
-    display: grid;
-    grid-template-columns: 2fr 3fr;
+/*     display: grid;
+    grid-template-columns: 2fr 3fr; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .home-left{

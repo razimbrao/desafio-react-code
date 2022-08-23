@@ -9,7 +9,7 @@ const Navbar = () => {
                 <ul>
                     <div className='logo-nav'>
                         <Link to='/'>
-                            <img src='/img/asta/asta-banner-nav.png' alt='logo da empresa'/>
+                            <img src='/img/asta/asta-banner-nav.png' alt='logo da empresa' />
                         </Link>
                     </div>
                     <div className='links-nav'>
@@ -21,6 +21,9 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link to="/contact">Contato</Link>
+                        </li>
+                        <li>
+                            <Link to="/members">Membros</Link>
                         </li>
                     </div>
                     <div className='login-nav'>
