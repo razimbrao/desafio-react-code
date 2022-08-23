@@ -2,8 +2,19 @@
     background: rgb(231,234,236);
     background: linear-gradient(180deg, rgba(231,234,236,1) 0%, rgba(255,255,255,1) 100%);
     color: #230c33;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.members-title{
+    margin: 2rem 0 0 0; 
+    text-align: center;
+}
+
+.members-title h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
