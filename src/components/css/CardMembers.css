@@ -1,0 +1,32 @@
+.card-members-box{
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    padding: 1rem;
+    margin: 1rem; 
+    min-width: 14rem;
+    width: 25vw;
+    border-top: 3px solid #6666CC;
+}
+
+.card-members-box h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #6666CC;
+}
+
+.card-members-content p{
+    font-size: 1.2rem;
+    text-align: start;
+    font-weight: bold;
+}
+
+.card-members-content span{
+    font-weight: 400;
+}
+
+.props-text{
+    text-transform: capitalize;
+}
+
