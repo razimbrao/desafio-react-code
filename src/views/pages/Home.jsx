@@ -21,7 +21,7 @@ const Home = () => {
                     
                     <div className="home-sub">
                         <div className="home-sub-item">
-                            <h2 className="home-subtitle">Agende uma reunião com a gente!</h2>
+                            <h2 className="home-subtitle">Ficou interessado? <br/> Agende uma reunião com a gente!</h2>
                             <Link to="/contact" className="home-button">Quero agendar uma reunião</Link>
                         </div>
                         <div>

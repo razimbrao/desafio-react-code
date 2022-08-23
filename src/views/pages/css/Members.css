@@ -1,5 +1,6 @@
 .members-page{
-    background-color: #EAEEF1;
+    background: rgb(231,234,236);
+    background: linear-gradient(180deg, rgba(231,234,236,1) 0%, rgba(255,255,255,1) 100%);
     color: #230c33;
     display: grid;
     grid-template-columns: 1fr 1fr;

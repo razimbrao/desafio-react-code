@@ -2,12 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #EAEEF1;
     padding-bottom: 4rem;
 }
-
+.home{
+    background: rgb(231,234,236);
+    background: linear-gradient(180deg, rgba(231,234,236,1) 0%, rgba(255,255,255,1) 100%);
+}
 .home-content {
-    background-color: #EAEEF1;
     color: #230c33;
     display: grid;
     grid-template-columns: 1fr 1fr;
