@@ -3,10 +3,14 @@ import '../css/CardMembers.css'
 
 
 const CardMembers = (props) => {
+    const depList = props.departamentos.join('; ');
     return (
         <div className="card-members-box">
             <div className='card-members-title'>
-                <h2>{props.name}</h2>
+                <span id='person-icon' className="material-symbols-outlined">account_circle</span>
+                <h2>
+                      {props.name}
+                </h2>
             </div>
             <div className='card-members-content'>
                 <p>
@@ -16,7 +20,7 @@ const CardMembers = (props) => {
                     Aniversário: <span className='props-text'>{props.aniversario}</span>
                 </p>
                 <p>
-                    Departamentos: <span className='props-text'>{props.departamentos}</span>
+                    Departamentos: <span className='props-text'>{depList}</span>
                 </p>
                 <p>
                     Cargo: <span className='props-text'>{props.cargo}</span>

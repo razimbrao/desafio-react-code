@@ -5,8 +5,13 @@
     padding: 1rem;
     margin: 1rem; 
     min-width: 14rem;
-    width: 25vw;
+    width: 26vw;
     border-top: 3px solid #6666CC;
+}
+
+.card-members-title {
+    display: flex;
+    align-items: center;
 }
 
 .card-members-box h2{
@@ -28,5 +33,11 @@
 
 .props-text{
     text-transform: capitalize;
+}
+
+#person-icon {
+    color: #592e83;
+    font-size: 1.5rem;
+    margin-right: 8px;
 }
 

@@ -1,4 +1,4 @@
-.card-box{
+.card-about-box{
     background-color: #FFF;
     border-radius: 5px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
@@ -8,15 +8,14 @@
     border-top: 3px solid #CE0000;
 }
 
-.card-box h3{
+.card-about-box h3{
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     color: #CE0000;
 }
 
-.card-box p{
+.card-about-box p{
     font-size: 1.2rem;
     text-align: center;
-    text-transform: capitalize;
 }
