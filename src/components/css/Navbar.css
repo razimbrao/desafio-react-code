@@ -1,9 +1,11 @@
+
+
 .navbar {
+  width: 100%;
   background-color: #592e83;
   text-transform: uppercase;
   padding-top: 0.5rem;
   row-gap: 2rem;
-  width: 100%;
 }
 
 .navbar ul {
@@ -44,6 +46,9 @@
   margin-right: 2rem;
 }
 
+@media screen {
+  
+}
 
 /*
 -----------------------------------

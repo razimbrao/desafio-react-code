@@ -7,6 +7,7 @@ import About from "../../views/pages/About";
 import Contact from "../../views/pages/Contact";
 import Login from "../../views/pages/Login";
 import Members from "../../views/pages/Members";
+import Admin from "../../views/pages/Admin";
 
 
 const Rotas = () => {
@@ -18,6 +19,7 @@ const Rotas = () => {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/members" element={<Members />} />
+                <Route path="/admin" element={<Admin />} />
             </Routes>
         </div>
     )

@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/Login.css";
 import Input from "../../components/layouts/Input";
-
+import { Link } from "react-router-dom";
 
 const Login = () => {
     return (
@@ -17,11 +17,11 @@ const Login = () => {
                 </div>
                 <form className="login-form">
                     <div className="input-group">
-                        <Input isInput={true} label="E-mail" placeholder="exemplo@email.com" type="email" obrigatorio={true} />
-                        <Input isInput={true} label="Senha" placeholder="Senha" type="password" obrigatorio={true} />
+                        <Input isInput={true} label="E-mail" placeholder="exemplo@email.com" type="email" obrigatorio={false} />
+                        <Input isInput={true} label="Senha" placeholder="Senha" type="password" obrigatorio={false} />
                     </div>
                     <div className="login-button-div">
-                        <button className="login-button">Login</button>
+                        <Link to={"/admin"}><button className="login-button">Login</button></Link>
                     </div>
                 </form>
             </section>
