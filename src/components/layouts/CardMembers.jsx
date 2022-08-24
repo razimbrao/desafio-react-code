@@ -4,6 +4,7 @@ import '../css/CardMembers.css'
 
 const CardMembers = (props) => {
     const depList = props.departamentos.join('; ');
+    const dateFormated = props.aniversario.split('/').reverse().join('/');
     return (
         <div className="card-members-box">
             <div className='card-members-title'>
@@ -17,7 +18,7 @@ const CardMembers = (props) => {
                     E-mail: <span>{props.email}</span>
                 </p>
                 <p>
-                    Aniversário: <span className='props-text'>{props.aniversario}</span>
+                    Aniversário: <span className='props-text'>{dateFormated}</span>
                 </p>
                 <p>
                     Departamentos: <span className='props-text'>{depList}</span>

@@ -1,12 +1,15 @@
+.home{
+    background: rgb(231,234,236);
+    background: linear-gradient(180deg, rgba(231,234,236,1) 0%, rgba(255,255,255,1) 100%);
+    min-width: 100%;
+}
+
+
 .banner {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 4rem;
-}
-.home{
-    background: rgb(231,234,236);
-    background: linear-gradient(180deg, rgba(231,234,236,1) 0%, rgba(255,255,255,1) 100%);
 }
 .home-content {
     color: #230c33;

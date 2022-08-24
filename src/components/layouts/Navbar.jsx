@@ -4,8 +4,8 @@ import '../css/Navbar.css';
 
 const Navbar = () => {
     return (
-        <header className="navbar">
-            <nav>
+        <header>
+            <nav className="navbar">
                 <ul>
                     <div className='logo-nav'>
                         <Link to='/'>
