@@ -13,7 +13,7 @@ const Home = () => {
                     <img src="/img/ilustrations/asta-cat-home.svg" alt="ilustração de um gato no espaço" />
                 </div>
                 <div className="home-right">
-                    <div className="home-maintxt">
+                    <div className="home-main-txt">
                         <h2 className="home-title">Veja o universo com outros olhos.</h2>
                         <p className="home-text">Rebum dolor diam sadipscing ipsum amet elitr elitr. Rebum voluptua aliquyam at duo stet amet sea, takimata dolore et et.</p>
                         <p className="home-text">Aliquyam dolor dolor takimata justo stet dolor kasd diam ea ut. Diam sadipscing duo erat est. Sit ipsum amet duo consetetur erat, elitr stet sed tempor at justo tempor diam, dolor magna eos dolor nonumy at clita stet invidunt, voluptua.</p>
