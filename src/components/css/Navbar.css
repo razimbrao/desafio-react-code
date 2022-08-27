@@ -89,27 +89,46 @@ nav ul li a:hover:after {
   opacity: 0.5;
 }
 
+.drop-links {
+  display: none;
+}
+
 @media (max-width: 800px) {
   .default-nav {
     display: none;
+  }
+  
+  .logo-nav {
+    margin: 0;
+    padding: 0;
   }
 
   .dropdown-nav {
     display: flex;
     flex-direction: column;
+  }
+  
+  .drop-main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .drop-links {
+    flex-direction: column;
     list-style-type: none;
     align-items: flex-end;
     justify-content: space-between;
-    background-color: #592e83;
     padding-bottom: 1rem;
   }
-
-  .dropdown-nav span {
+  
+  .drop-main span {
     color: #fff;
-    margin-bottom: 1.5rem;
-    transform: translate(-100%, 75%);
-    font-size: 1.8rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
   }
 
 }
