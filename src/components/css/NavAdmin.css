@@ -49,21 +49,21 @@
 -----------------------------------
 */
 
-nav a,
-nav a:after,
-nav a:before {
+.admin-logout a,
+.admin-logout a:after,
+.admin-logout a:before {
     transition: all .5s;
 }
 
-nav a:hover {
+.admin-logout a:hover {
     color: #caa8f5;
 }
 
-nav a {
+.admin-logout a {
     position: relative;
 }
 
-nav a:after {
+.admin-logout a:after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -76,7 +76,7 @@ nav a:after {
     height: 1px;
 }
 
-nav a:hover:after {
+.admin-logout a:hover:after {
     width: 100%;
 }
 
